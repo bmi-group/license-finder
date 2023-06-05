@@ -20,7 +20,9 @@ license_finder action_items --format html > output.html
 
 ## Allow dependency/license
 
-License Finder uses the package manager present in the repo for finding out what license is applicable to the dependency (e.g. using the license property in a `package.json` file). Unfortunately, some libraries aren't very clear in their usage (e.g. have a combination of licenses and use a custom format to denote that), don't bundle the license in with the dependency or simply don't use common conventions to signify what the license is. Sometimes, we have dependencies that are necessary for what we do and simply aren't licensed (e.g. the Netlify CLI library brings in other Netlify libraries which are unlicensed, but needed to use the CLI).
+License Finder uses the package manager present in the repo for finding out what license is applicable to the dependency (e.g. using the license property in a `package.json` file). Unfortunately, some libraries aren't very clear in their usage (e.g. have a combination of licenses and use a custom format to denote that), don't bundle the license in with the dependency or simply don't use common conventions to signify what the license is.
+
+Sometimes, we have dependencies that are necessary for what we do and simply aren't licensed (e.g. the Netlify CLI library brings in other Netlify libraries which are unlicensed, but needed to use the CLI).
 
 ### Add license
 
@@ -30,7 +32,7 @@ Assuming that the license that is missing is one that should be compatible for a
 license_finder permitted_licenses add "MIT" --decisions-file approved_dependencies.yml --who "Benjamin Sproule" --why "Compatible license"
 ```
 
-### Add dependency with a license that can't be found
+### Add license to a dependency with a license that can't be found
 
 Assuming the license that is attributed to the dependency is compatible for us to use, the dependency can be assigned a license for license_finder to use.
 
@@ -42,7 +44,9 @@ license_finder licenses add fsevents "MIT" --version 1.0.0  --decisions-file fix
 
 ### Add dependency without a license
 
-Assuming that the dependency is required for us to use, the dependency can be explicitly approved.
+This should only be used for extremley specific use cases, for example a deployment tool like Netlify CLI. For anything else, it should be specified in the project explicitely.
+
+Assuming that the dependency is required for all projects to use, the dependency can be explicitly approved.
 
 _N.B. Make sure to specify who added it, the reason for adding it and the version, in case it changes in the future_
 
