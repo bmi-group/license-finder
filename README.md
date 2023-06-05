@@ -28,6 +28,8 @@ Sometimes, we have dependencies that are necessary for what we do and simply are
 
 Assuming that the license that is missing is one that should be compatible for all dependencies that are attributed that license, we can add said license.
 
+_N.B. If the license has a `*` after it, then it means `yarn` has tried to figure it out through other files, so best to explicitely add the license to the dependency instead of adding the license, in case it got the license wrong_
+
 ```bash
 license_finder permitted_licenses add "MIT" --decisions-file approved_dependencies.yml --who "Benjamin Sproule" --why "Compatible license"
 ```

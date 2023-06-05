@@ -114,24 +114,6 @@
     :versions: []
     :when: 2021-02-18 11:09:19.949263000 Z
 - - :permit
-  - BMI-DXB
-  - :who: Benjamin Sproule
-    :why: Acceptable license
-    :versions: []
-    :when: 2021-02-18 14:17:04.965229000 Z
-- - :permit
-  - MIT*
-  - :who: Benjamin Sproule
-    :why: Acceptable license
-    :versions: []
-    :when: 2021-02-18 14:47:57.218196000 Z
-- - :permit
-  - BSD*
-  - :who: Benjamin Sproule
-    :why: Acceptable license
-    :versions: []
-    :when: 2021-02-18 14:54:49.782489000 Z
-- - :permit
   - Unlicense
   - :who: Benjamin Sproule
     :why: Acceptable license
