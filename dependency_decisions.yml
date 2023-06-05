@@ -1,6 +1,6 @@
 ---
 - - :inherit_from
-  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/approved_dependencies.yml.yml
+  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/approved_dependencies.yml
 - - :inherit_from
   - https://gitlab.com/bmi-digital/license-finder/-/raw/main/approved_licenses.yml
 - - :inherit_from
