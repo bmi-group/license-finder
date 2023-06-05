@@ -1,0 +1,41 @@
+---
+- - :license
+  - map-stream
+  - MIT
+  - :who: Benjamin Sproule
+    :why: Later versions added license
+    :versions:
+      - 0.1.0
+    :when: 2023-06-05 20:37:15.380688000 Z
+- - :license
+  - pause-stream
+  - "(Apache-2.0 OR MIT)"
+  - :who: Benjamin Sproule
+    :why: Later versions added license
+    :versions:
+      - 0.0.11
+    :when: 2023-06-05 20:43:54.783996000 Z
+- - :license
+  - png-js
+  - MIT
+  - :who: Benjamin Sproule
+    :why: License defined in LICENSE file
+    :versions:
+      - 1.0.0
+    :when: 2023-06-05 20:49:33.103605000 Z
+- - :license
+  - rework
+  - MIT
+  - :who: Benjamin Sproule
+    :why: Later versions added license
+    :versions:
+      - 1.0.1
+    :when: 2023-06-05 20:52:16.765340000 Z
+- - :license
+  - valid-url
+  - MIT
+  - :who: Benjamin Sproule
+    :why: Later versions added license
+    :versions:
+      - 1.0.9
+    :when: 2023-06-05 20:55:01.438132000 Z

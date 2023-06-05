@@ -1,0 +1,67 @@
+---
+- - :approve
+  - "@bmi-digital/components"
+  - :who: Benjamin Sproule
+    :why: Our own common components library
+    :versions: []
+    :when: 2022-02-17 10:58:39.296731000 Z
+- - :approve
+  - "@bmi-digital/tsconfig"
+  - :who: Benjamin Sproule
+    :why: Our own project
+    :versions: []
+    :when: 2022-06-06 17:21:13.238098000 Z
+- - :approve
+  - "@bmi-digital/eslint-config"
+  - :who: Benjamin Sproule
+    :why: Our own project
+    :versions: []
+    :when: 2022-06-06 17:21:19.509965000 Z
+- - :approve
+  - "@bmi-digital/contentful-migration"
+  - :who: Benjamin Sproule
+    :why: Our own project
+    :versions: []
+    :when: 2022-06-21 15:02:25.258983000 Z
+- - :approve
+  - "@bmi-digital/fetch-mocks"
+  - :who: Benjamin Sproule
+    :why: Our own project
+    :versions: []
+    :when: 2022-06-21 15:02:33.057405000 Z
+- - :approve
+  - "@bmi-digital/functions-logger"
+  - :who: Benjamin Sproule
+    :why: Our own project
+    :versions: []
+    :when: 2022-06-21 15:02:40.670964000 Z
+- - :approve
+  - "@bmi-digital/functions-secret-client"
+  - :who: Benjamin Sproule
+    :why: Our own project
+    :versions: []
+    :when: 2022-06-21 15:03:09.818614000 Z
+- - :approve
+  - "@bmi-digital/styles"
+  - :who: Benjamin Sproule
+    :why: Our own project
+    :versions: []
+    :when: 2022-06-21 15:03:16.944769000 Z
+- - :approve
+  - "@bmi-digital/svg-import"
+  - :who: Benjamin Sproule
+    :why: Our own project
+    :versions: []
+    :when: 2022-06-21 15:03:24.799419000 Z
+- - :approve
+  - "@bmi-digital/use-dimensions"
+  - :who: Benjamin Sproule
+    :why: Our own project
+    :versions: []
+    :when: 2022-11-14 16:32:16.823639000 Z
+- - :approve
+  - "@bmi-digital/react-pdf-maker"
+  - :who: Benjamin Sproule
+    :why: Our own project
+    :versions: []
+    :when: 2022-12-19 11:51:34.676435000 Z
