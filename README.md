@@ -31,7 +31,7 @@ Assuming that the license that is missing is one that should be compatible for a
 _N.B. If the license has a `*` after it, then it means `yarn` has tried to figure it out through other files, so best to explicitely add the license to the dependency instead of adding the license, in case it got the license wrong_
 
 ```bash
-license_finder permitted_licenses add "MIT" --decisions-file approved_dependencies.yml --who "Benjamin Sproule" --why "Compatible license"
+license_finder permitted_licenses add "MIT" --decisions-file approved_licenses.yml --who "Benjamin Sproule" --why "Compatible license"
 ```
 
 ### Add license to a dependency with a license that can't be found
