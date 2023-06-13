@@ -1,3 +1,4 @@
+# These are the dependencies where they do specify a license or licenses, but License Finder wasn't able to pick it up, or it was unlicensed and then became licensed.
 ---
 - - :license
   - map-stream

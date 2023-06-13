@@ -2,6 +2,17 @@
 
 We use [License Finder](https://github.com/pivotal/LicenseFinder) to check our dependencies. This allows us to bring in any dependencies that we want, ensuring that we don't put ourselves into any legal troubles by using licenses that are not allowable for what we do.
 
+## Which configuration to use?
+
+As licenses have different requirements, we have split the license approval files into approved licenses and internal only licenses. This is so that we can have externally facing projects (such as websites, mobile applications, etc.) to have a simple config to import and the internal only focused tools can still use dependencies that would otherwise require us to provide our source code (e.g. relying on a GPL licensed dependency would require us to provide our website source code).
+
+- If the project is going to be distributed, such as part of a website or mobile application, or it's a library that will be part of a distributed project, then bring in the `distributed.yml`.
+- If the proejct is not going be distributed and will never be distributed, then bring in the `internal_or_oss.yml`.
+- If the project was distributed and no longer is, then the `internal_or_oss.yml` configuration can be brought in _after_ it has been removed from all distributed channels.
+- If the project was not distrubted and now is, _before_ the project is distributed, make sure the `distributed.yml` configuration is being used, to make sure that we are not exposing us to any license issues.
+
+There maybe some use cases where a dependency is approved under the `internal_or_oss.yml` configuration, but the project itself has a distributed aspect _not_ including this dependency. In which case, it's safe to add an approval at the _project_ level and _not_ on a common level. This allows dependencies to still be used, but requires the project to have had some forethought and control over whether the dependency will actually violate the license or not. For example, if a GPL v3 licensed dependency is _only_ used as part of the unit tests for a website, then the project is distributed and therefore GPL v3 licenses aren't permitted, but as the dependency in question is part of the unit tests and therefore _not_ distributed, it is safe to approve that dependency.
+
 ## Install License Finder locally
 
 1. Install [Ruby](https://www.ruby-lang.org/en/) if it's not already installed

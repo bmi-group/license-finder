@@ -1,3 +1,4 @@
+# These are the licenses that allow us to use the dependencies as-is and not have any requirements on us to make our source code available.
 ---
 - - :permit
   - MIT
@@ -35,12 +36,6 @@
     :why: Acceptable license
     :versions: []
     :when: 2021-02-18 10:59:36.929491000 Z
-- - :permit
-  - GPL-2.0
-  - :who: Benjamin Sproule
-    :why: Acceptable license
-    :versions: []
-    :when: 2021-02-18 10:59:45.253788000 Z
 - - :permit
   - BSD
   - :who: Benjamin Sproule
@@ -131,12 +126,6 @@
     :why: Acceptable license
     :versions: []
     :when: 2022-02-17 08:43:13.523566000 Z
-- - :permit
-  - GPL-3.0
-  - :who: Benjamin Sproule
-    :why: Acceptable license
-    :versions: []
-    :when: 2022-04-29 12:42:53.114385000 Z
 - - :permit
   - BlueOak-1.0.0
   - :who: Benjamin Sproule

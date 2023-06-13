@@ -1,0 +1,15 @@
+# These are licenses that require us to make our source code available upon request if we distribute it.
+# These should only be included if the project source code is public or the project will not be distributed or used in a distributed project.
+---
+- - :permit
+  - GPL-2.0
+  - :who: Benjamin Sproule
+    :why: Acceptable license
+    :versions: []
+    :when: 2021-02-18 10:59:45.253788000 Z
+- - :permit
+  - GPL-3.0
+  - :who: Benjamin Sproule
+    :why: Acceptable license
+    :versions: []
+    :when: 2022-04-29 12:42:53.114385000 Z

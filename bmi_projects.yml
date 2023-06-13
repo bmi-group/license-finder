@@ -1,3 +1,4 @@
+# These are the common projects that we have within BMI, so as to not require all downstream projects from having to explicitely approve them.
 ---
 - - :approve
   - "@bmi-digital/components"

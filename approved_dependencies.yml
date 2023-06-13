@@ -1,1 +1,3 @@
+# These are the dependencies that have been explicitely approved even though they don't conform the license approvals for BMI.
+# If a dependency violates a license under certain circumstances, DON'T include it here, as it can't enforce the circumstance is correct for that project.
 ---

@@ -1,4 +1,4 @@
-# Deprecated and should be removed.
+# Common configuration to bring in the separated configurations into a single include file for maintanence simplicity.
 ---
 - - :inherit_from
   - https://gitlab.com/bmi-digital/license-finder/-/raw/main/approved_dependencies.yml
@@ -8,5 +8,3 @@
   - https://gitlab.com/bmi-digital/license-finder/-/raw/main/bmi_projects.yml
 - - :inherit_from
   - https://gitlab.com/bmi-digital/license-finder/-/raw/main/fixed_dependency_licenses.yml
-- - :inherit_from
-  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/internal_only_licenses.yml
