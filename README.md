@@ -42,7 +42,7 @@ Assuming that the license that is missing is one that should be compatible for a
 _N.B. If the license has a `*` after it, then it means `yarn` has tried to figure it out through other files, so best to explicitely add the license to the dependency instead of adding the license, in case it got the license wrong_
 
 ```bash
-license_finder permitted_licenses add "MIT" --decisions-file approved_licenses.yml --who "Benjamin Sproule" --why "Compatible license"
+license_finder permitted_licenses add "MIT" --decisions-file doc/approved_licenses.yml --who "Benjamin Sproule" --why "Compatible license"
 ```
 
 ### Add license to a dependency with a license that can't be found
@@ -52,7 +52,7 @@ Assuming the license that is attributed to the dependency is compatible for us t
 _N.B. Make sure to specify who added it, the reason for adding it and the version, in case it changes in the future_
 
 ```bash
-license_finder licenses add fsevents "MIT" --version 1.0.0  --decisions-file fixed_dependency_licenses.yml --who "Benjamin Sproule" --why "Later versions added license"
+license_finder licenses add fsevents "MIT" --version 1.0.0  --decisions-file doc/fixed_dependency_licenses.yml --who "Benjamin Sproule" --why "Later versions added license"
 ```
 
 ### Add dependency without a license
@@ -64,7 +64,7 @@ Assuming that the dependency is required for all projects to use, the dependency
 _N.B. Make sure to specify who added it, the reason for adding it and the version, in case it changes in the future_
 
 ```bash
-license_finder dependencies add traffic-mesh-agent-linux-x64 0.1.2 --decisions-file approved_dependencies.yml --who "Benjamin Sproule" --why "license_finder can't access the repo (required by Netlify CLI)"
+license_finder dependencies add traffic-mesh-agent-linux-x64 0.1.2 --decisions-file doc/approved_dependencies.yml --who "Benjamin Sproule" --why "license_finder can't access the repo (required by Netlify CLI)"
 ```
 
 ### Unapprove dependency with incompatible license
