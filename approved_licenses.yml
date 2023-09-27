@@ -150,3 +150,9 @@
     :why: Acceptable license
     :versions: []
     :when: 2023-06-08 18:41:47.804626000 Z
+- - :permit
+  - Elastic-2.0
+  - :who: Benjamin Sproule
+    :why: Acceptable license as we don't sell hosting (which is the only limitation of this license)
+    :versions: []
+    :when: 2023-09-27 16:04:35.054541000 Z
