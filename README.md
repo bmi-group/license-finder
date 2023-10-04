@@ -64,7 +64,7 @@ Assuming that the dependency is required for all projects to use, the dependency
 _N.B. Make sure to specify who added it, the reason for adding it and the version, in case it changes in the future_
 
 ```bash
-license_finder dependencies add traffic-mesh-agent-linux-x64 0.1.2 --decisions-file doc/approved_dependencies.yml --who "Benjamin Sproule" --why "license_finder can't access the repo (required by Netlify CLI)"
+license_finder approvals add traffic-mesh-agent-linux-x64 0.1.2 --decisions-file doc/approved_dependencies.yml --who "Benjamin Sproule" --why "license_finder can't access the repo (required by Netlify CLI)"
 ```
 
 ### Unapprove dependency with incompatible license
