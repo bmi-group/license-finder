@@ -35,6 +35,8 @@ License Finder uses the package manager present in the repo for finding out what
 
 Sometimes, we have dependencies that are necessary for what we do and simply aren't licensed (e.g. the Netlify CLI library brings in other Netlify libraries which are unlicensed, but needed to use the CLI).
 
+_If the change is for a specific workspace/repo, then use `--decisions-file doc/workspace_dependencies.yml`. This should only be required in a monorepo, referencing the different projects within it, or for very specific licensing we have for that project. Otherwise, the approval/permission should be done in this repo as much as possible, so all projects don't need to have the same rules specified separately._
+
 ### Add license
 
 Assuming that the license that is missing is one that should be compatible for all dependencies that are attributed that license, we can add said license.
