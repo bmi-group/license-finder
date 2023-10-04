@@ -1,3 +1,45 @@
 # These are the dependencies that have been explicitely approved even though they don't conform the license approvals for BMI.
 # If a dependency violates a license under certain circumstances, DON'T include it here, as it can't enforce the circumstance is correct for that project.
 ---
+- - :approve
+  - "@forge/api"
+  - :who: Benjamin Sproule
+    :why: Proprietary Atlassian library for Forge apps
+    :versions: []
+    :when: 2023-10-04 17:24:03.532310000 Z
+- - :approve
+  - "@forge/auth"
+  - :who: Benjamin Sproule
+    :why: Proprietary Atlassian library for Forge apps
+    :versions: []
+    :when: 2023-10-04 17:24:34.502055000 Z
+- - :approve
+  - "@forge/bridge"
+  - :who: Benjamin Sproule
+    :why: Proprietary Atlassian library for Forge apps
+    :versions: []
+    :when: 2023-10-04 17:24:40.919923000 Z
+- - :approve
+  - "@forge/egress"
+  - :who: Benjamin Sproule
+    :why: Proprietary Atlassian library for Forge apps
+    :versions: []
+    :when: 2023-10-04 17:24:45.328054000 Z
+- - :approve
+  - "@forge/resolver"
+  - :who: Benjamin Sproule
+    :why: Proprietary Atlassian library for Forge apps
+    :versions: []
+    :when: 2023-10-04 17:24:51.849437000 Z
+- - :approve
+  - "@forge/storage"
+  - :who: Benjamin Sproule
+    :why: Proprietary Atlassian library for Forge apps
+    :versions: []
+    :when: 2023-10-04 17:25:12.246719000 Z
+- - :approve
+  - "@forge/util"
+  - :who: Benjamin Sproule
+    :why: Proprietary Atlassian library for Forge apps
+    :versions: []
+    :when: 2023-10-04 17:25:43.615810000 Z
