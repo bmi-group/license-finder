@@ -156,3 +156,9 @@
     :why: Acceptable license as we don't sell hosting (which is the only limitation of this license)
     :versions: []
     :when: 2023-09-27 16:04:35.054541000 Z
+- - :permit
+  - MIT-0
+  - :who: Benjamin Sproule
+    :why: Compatible license
+    :versions: []
+    :when: 2023-10-06 20:51:07.534272000 Z
