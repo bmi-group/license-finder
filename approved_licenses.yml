@@ -1,4 +1,3 @@
-# These are the licenses that allow us to use the dependencies as-is and not have any requirements on us to make our source code available.
 ---
 - - :permit
   - MIT
@@ -153,7 +152,8 @@
 - - :permit
   - Elastic-2.0
   - :who: Benjamin Sproule
-    :why: Acceptable license as we don't sell hosting (which is the only limitation of this license)
+    :why: Acceptable license as we don't sell hosting (which is the only limitation
+      of this license)
     :versions: []
     :when: 2023-09-27 16:04:35.054541000 Z
 - - :permit
@@ -180,3 +180,9 @@
     :why: Compatible license
     :versions: []
     :when: 2023-12-20 13:46:57.968584000 Z
+- - :permit
+  - LGPL-3.0-or-later
+  - :who: Benjamin Sproule
+    :why: Compatible license
+    :versions: []
+    :when: 2023-12-21 18:31:45.046584000 Z
