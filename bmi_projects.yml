@@ -1,4 +1,3 @@
-# These are the common projects that we have within BMI, so as to not require all downstream projects from having to explicitely approve them.
 ---
 - - :approve
   - "@bmi-digital/components"
@@ -66,3 +65,9 @@
     :why: Our own project
     :versions: []
     :when: 2022-12-19 11:51:34.676435000 Z
+- - :approve
+  - "@bmi-digital/contentful-testing-library"
+  - :who: Benjamin Sproule
+    :why: Our own project
+    :versions: []
+    :when: 2024-01-12 10:53:31.504897000 Z
