@@ -1,4 +1,4 @@
 # End configuration to be inherited from for distributed or distributable projects.
 ---
 - - :inherit_from
-  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/common_decisions.yml
+  - https://raw.githubusercontent.com/bmi-group/license-finder/refs/heads/main/common_decisions.yml

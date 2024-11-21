@@ -1,12 +1,6 @@
-# Deprecated and should be removed.
+# Deprecated and should be removed. Please use either distributed.yml or internal_or_oss.yml instead.
 ---
 - - :inherit_from
-  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/approved_dependencies.yml
+  - https://raw.githubusercontent.com/bmi-group/license-finder/refs/heads/main/distributed.yml
 - - :inherit_from
-  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/approved_licenses.yml
-- - :inherit_from
-  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/bmi_projects.yml
-- - :inherit_from
-  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/fixed_dependency_licenses.yml
-- - :inherit_from
-  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/internal_only_licenses.yml
+  - https://raw.githubusercontent.com/bmi-group/license-finder/refs/heads/main/internal_only_licenses.yml

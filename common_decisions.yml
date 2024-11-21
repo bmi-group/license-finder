@@ -1,10 +1,10 @@
 # Common configuration to bring in the separated configurations into a single include file for maintanence simplicity.
 ---
 - - :inherit_from
-  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/approved_dependencies.yml
+  - https://raw.githubusercontent.com/bmi-group/license-finder/refs/heads/main/approved_dependencies.yml
 - - :inherit_from
-  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/approved_licenses.yml
+  - https://raw.githubusercontent.com/bmi-group/license-finder/refs/heads/main/approved_licenses.yml
 - - :inherit_from
-  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/bmi_projects.yml
+  - https://raw.githubusercontent.com/bmi-group/license-finder/refs/heads/main/bmi_projects.yml
 - - :inherit_from
-  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/fixed_dependency_licenses.yml
+  - https://raw.githubusercontent.com/bmi-group/license-finder/refs/heads/main/fixed_dependency_licenses.yml

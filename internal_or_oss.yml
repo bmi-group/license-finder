@@ -1,6 +1,6 @@
 # End configuration to be inherited from for projects that will never be distributed or will be open source.
 ---
 - - :inherit_from
-  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/common_decisions.yml
+  - https://raw.githubusercontent.com/bmi-group/license-finder/refs/heads/main/common_decisions.yml
 - - :inherit_from
-  - https://gitlab.com/bmi-digital/license-finder/-/raw/main/internal_only_licenses.yml
+  - https://raw.githubusercontent.com/bmi-group/license-finder/refs/heads/main/internal_only_licenses.yml
