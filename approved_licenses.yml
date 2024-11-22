@@ -187,13 +187,7 @@
     :versions: []
     :when: 2023-12-21 18:31:45.046584000 Z
 - - :permit
-  - Eclipse 2.0, GNU General Public License, version 2 with the GNU Classpath Exception
-  - :who: Benjamin Sproule
-    :why: Compatible license
-    :versions: []
-    :when: 2024-11-22 11:14:56.510411000 Z
-- - :permit
-  - Eclipse 2.0, GPL2 w/ CPE
+  - Eclipse 2.0
   - :who: Benjamin Sproule
     :why: Compatible license
     :versions: []
